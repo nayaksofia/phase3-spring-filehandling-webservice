@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Spring-Uploading Multipart File</title>
+</head>
+<body>
+   <h1>Uploading File</h1>
+   
+   <form action="/do-upload" method="post" enctype="multipart/form-data">
+   
+      <label>Choose File</label>
+      <input type="file" name="file">
+      <button type="submit">Upload</button>
+   </form>
+   
+   <br><br>
+   <a href="/download?filename=car12.jfif">Download File</a>
+   
+</body>
+</html>
